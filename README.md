@@ -15,6 +15,9 @@ With a myriad of HTTP utility methods and middleware at your disposal, creating 
 
 1) Clone this repository
 2) Install dependencies using below command
-    npm install
-3) Create database and connection
-4) npm start
+- npm install
+3) Create database and configure in
+- config/db.config.js
+4) Import script db.sql
+5) node index
+6) http://localhost:5000/api/v1/employee
